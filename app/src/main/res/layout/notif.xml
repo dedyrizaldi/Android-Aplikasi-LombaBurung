@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#fff"  >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+		
+		
+<TextView
+android:id="@+id/txtMarquee"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="14sp"
+android:typeface="sans"
+android:textColor="#ffffff"
+android:background="#000000"
+android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever">
+</TextView>
+
+
+        <ImageView
+            android:id="@+id/myGambar"
+            android:layout_width="320px"
+            android:layout_height="320px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/admin" />
+        
+        <TextView
+             android:id="@+id/txtinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="INFO"
+            android:textColor="#FF0000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+  <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="++++++++++++++++++"
+            android:textColor="#0000ff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Beli"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtkode_beli"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+         
+       
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Burung" 
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtkode_burung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        
+        <!--  Name Label -->
+      
+           <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Jual" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txttanggal_jual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        
+        
+        <!--  Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Dibeli" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txttanggal_beli"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        <!--  Email Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Beli" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtjam_beli"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+
+        
+         <!--  Email Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtharga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembeli" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+         <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtkode_anggota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+      
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="status_beli" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtstatus_beli"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        
+        
+        
+        
+        ==
+        
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Konfirmasi" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txttanggal_konfirmasi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Konfirmasi" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtjam_konfirmasi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bukti Transfer" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtbukti_transfer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Bank" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtnama_bank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Catatan" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtcatatan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        
+        
+        
+        <Button
+            android:id="@+id/btnhapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+              android:text="Kembali" />
+			  
+			  
+    </LinearLayout>
+ 
+</ScrollView>

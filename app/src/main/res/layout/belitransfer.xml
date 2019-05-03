@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+       <!--  Copy sini -->
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+          android:background="@drawable/bg"  >
+    android:padding="10dip" >
+        <!--  View Title Label -->
+
+
+	
+<TextView
+android:id="@+id/txtMarquee"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="14sp"
+android:typeface="sans"
+android:textColor="#ffffff"
+android:background="#000000"
+android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever">
+</TextView>
+
+    
+        
+        <!--  Name Label -->
+        
+        <LinearLayout 
+android:layout_width="200dp"
+android:layout_height="250dp"
+android:orientation="vertical"
+android:layout_gravity="center_horizontal"
+android:background="@drawable/bg" >
+         
+           <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp" >
+            
+ 	    
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+             
+                <ImageView
+                	android:layout_marginTop="15dp"
+                    android:id="@+id/myGambar"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            
+ 	    
+        	<LinearLayout
+        	    android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/myGambar2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"/>
+                   
+                    
+        	</LinearLayout>
+        	
+        	<LinearLayout
+        	    android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+             
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/myGambar3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    />
+
+                    
+        	</LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:gravity="center"
+                   android:orientation="vertical" >
+
+
+                   <ImageView
+                       android:layout_marginTop="15dp"
+                       android:id="@+id/myGambar4"
+                       android:layout_width="200dp"
+                       android:layout_height="200dp"
+                       />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:gravity="center"
+                   android:orientation="vertical" >
+
+
+                   <ImageView
+                       android:layout_marginTop="15dp"
+                       android:id="@+id/myGambar5"
+                       android:layout_width="200dp"
+                       android:layout_height="200dp"
+                       />
+
+
+               </LinearLayout>
+
+        </ViewFlipper>
+        </LinearLayout>
+        
+       <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="@drawable/bg"  >
+        
+           <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!--  bates -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Beli"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--  Name TextField -->
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/txtkode_beli"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+         
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Burung" 
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtkode_jual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        
+        <!--  Name Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Beli" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <!--  Name TextField -->
+        <EditText
+
+            android:id="@+id/txttanggal_beli"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+   
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtharga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Penjual" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+         <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtkode_anggota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        
+        
+        
+        
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Silakan Transfer Ke" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+   
+         
+<RadioGroup    android:id="@+id/radio"    android:layout_width="fill_parent"    android:layout_height="wrap_content"    android:orientation="vertical">
+    <RadioButton android:id="@+id/radPa"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:text="BCA : 53462727272"        android:checked="true" />
+    <RadioButton android:id="@+id/radPi"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:text="Bri : 120-34535-234534-44" />
+    <RadioButton android:id="@+id/radPu"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:text="Mandiri : 232343453545" />
+    
+</RadioGroup>
+        
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="AN: PO. Pasar Segar" 
+            android:textColor="#ff0000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+         
+         
+          <TextView
+              android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Catatan" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+           <EditText
+            android:id="@+id/txtcatatan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+      
+		 <Button android:id="@+id/btnupload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Upload Bukti Bayar"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnproses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+              android:text="Konfirmasi" />
+         <Button
+            android:id="@+id/btnhapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+              android:text="Hapus" />
+	 </LinearLayout>
+        </ScrollView>
+			  
+    </LinearLayout>

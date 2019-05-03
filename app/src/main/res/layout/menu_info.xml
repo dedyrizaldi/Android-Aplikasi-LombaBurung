@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/bg"  >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:stretchColumns="0,1"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow16" android:gravity="center" android:layout_marginTop="20dp"  android:layout_width="fill_parent" android:layout_height="wrap_content" >
+       
+        <ImageView
+        android:id="@+id/btnlomba"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_lombaku" />
+      
+        
+        </TableRow>
+
+              <TableRow
+            android:id="@+id/tableRow17" android:gravity="center" android:layout_marginTop="10dp"  android:layout_width="fill_parent" android:layout_height="wrap_content" >
+       
+        
+        <ImageView
+        android:id="@+id/btntiket"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_tiket" />
+        
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow18" android:gravity="center" android:layout_marginTop="10dp"  android:layout_width="fill_parent" android:layout_height="wrap_content" >
+     
+              
+             <ImageView
+        android:id="@+id/btnarsip"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arsip" />
+             
+             </TableRow>
+       
+    </TableLayout>
+
+    
+
+</RelativeLayout>
+
+</ScrollView>

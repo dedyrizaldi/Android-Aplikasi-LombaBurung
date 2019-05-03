@@ -1,0 +1,416 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:17:1-31:12
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\6ba2405dbcbf542527f53feaabe04964\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:5-75
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:5-75
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:5-75
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:21:5-23:54
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\6ba2405dbcbf542527f53feaabe04964\AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\6ba2405dbcbf542527f53feaabe04964\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:5-75
+INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:5-75
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:43-72
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:7:16-41
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:13:6-68
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:13:23-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:14:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.CAMERA
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:16:5-64
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:16:22-62
+application
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:18:5-87:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:21:9-41
+	android:hardwareAccelerated
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:23:9-44
+	android:largeHeap
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:24:9-33
+	android:icon
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:20:9-40
+	android:allowBackup
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:22:9-40
+activity#com.hobuku.hobu.Loading
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:26:58-78
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:26:19-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.hobuku.hobu.Album
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:33:11-88
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:33:58-85
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:33:21-57
+activity#com.hobuku.hobu.Detail_beliApprove
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:34:10-100
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:34:70-97
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:34:20-69
+activity#com.hobuku.hobu.Slider
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:36:10-88
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:36:58-85
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:36:20-57
+activity#com.hobuku.hobu.Gantangan
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:37:10-91
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:37:61-88
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:37:20-60
+activity#com.hobuku.hobu.Login
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:38:9-91
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:38:56-88
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:38:19-55
+activity#com.hobuku.hobu.Menu_info
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:39:9-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:39:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:39:19-59
+activity#com.hobuku.hobu.Menu_beli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:40:9-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:40:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:40:19-59
+activity#com.hobuku.hobu.Menu_utama
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:41:9-96
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:41:61-93
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:41:19-60
+activity#com.hobuku.hobu.Profil_anggota
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:42:9-100
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:42:65-97
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:42:19-64
+activity#com.hobuku.hobu.Cari_beli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:43:9-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:43:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:43:19-59
+activity#com.hobuku.hobu.Detail_caribeli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:44:9-101
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:44:66-98
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:44:19-65
+activity#com.hobuku.hobu.List_keranjangbeli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:45:9-104
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:45:69-101
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:45:19-68
+activity#com.hobuku.hobu.Detail_keranjangbeli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:46:9-106
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:46:71-103
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:46:19-70
+activity#com.hobuku.hobu.Add_jual
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:47:9-94
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:47:59-91
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:47:19-58
+activity#com.hobuku.hobu.Daftar
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:48:9-92
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:48:57-89
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:48:19-56
+activity#com.hobuku.hobu.UploadToServer
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:49:9-100
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:49:65-97
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:49:19-64
+activity#com.hobuku.hobu.Order_tiket
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:50:9-97
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:50:62-94
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:50:19-61
+activity#com.hobuku.hobu.Detail_belibooking
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:51:13-108
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:51:73-105
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:51:23-72
+activity#com.hobuku.hobu.List_anggota
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:53:9-98
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:53:63-95
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:53:19-62
+activity#com.hobuku.hobu.List_beli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:54:9-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:54:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:54:19-59
+activity#com.hobuku.hobu.List_burung
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:55:9-97
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:55:62-94
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:55:19-61
+activity#com.hobuku.hobu.List_jual
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:56:9-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:56:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:56:19-59
+activity#com.hobuku.hobu.List_lomba
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:57:9-96
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:57:61-93
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:57:19-60
+activity#com.hobuku.hobu.List_perawatan
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:58:9-100
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:58:65-97
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:58:19-64
+activity#com.hobuku.hobu.List_tiket
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:59:9-96
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:59:61-93
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:59:19-60
+activity#com.hobuku.hobu.List_user
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:60:9-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:60:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:60:19-59
+activity#com.hobuku.hobu.Detail_anggota
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:62:9-100
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:62:65-97
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:62:19-64
+activity#com.hobuku.hobu.Detail_beli
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:63:3-91
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:63:56-88
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:63:13-55
+activity#com.hobuku.hobu.Detail_burung
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:64:3-93
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:64:58-90
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:64:13-57
+activity#com.hobuku.hobu.Detail_jual
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:65:3-91
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:65:56-88
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:65:13-55
+activity#com.hobuku.hobu.Detail_lomba
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:66:3-92
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:66:57-89
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:66:13-56
+activity#com.hobuku.hobu.Detail_perawatan
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:67:3-96
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:67:61-93
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:67:13-60
+activity#com.hobuku.hobu.Detail_user
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:68:3-91
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:68:56-88
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:68:13-55
+activity#com.hobuku.hobu.List_bookingjual
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:69:3-96
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:69:61-93
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:69:13-60
+activity#com.hobuku.hobu.Detail_beliarsip
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:70:3-96
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:70:61-93
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:70:13-60
+activity#com.hobuku.hobu.List_bookingarsip
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:71:4-98
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:71:63-95
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:71:14-62
+activity#com.hobuku.hobu.UploadToServer2
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:73:3-95
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:73:60-92
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:73:13-59
+activity#com.hobuku.hobu.UploadToServerTiket
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:74:3-99
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:74:64-96
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:74:13-63
+activity#com.hobuku.hobu.BeliTransfer
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:77:4-93
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:77:58-90
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:77:14-57
+activity#com.hobuku.hobu.Detail_tiketkonfirmasi
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:78:3-102
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:78:67-99
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:78:13-66
+activity#com.hobuku.hobu.Detail_tiketbooking
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:79:6-102
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:79:67-99
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:79:16-66
+activity#com.hobuku.hobu.Detail_tiketselesai
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:81:3-99
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:81:64-96
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:81:13-63
+activity#com.hobuku.hobu.Detail_tiketbatal
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:82:6-100
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:82:65-97
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:82:16-64
+activity#com.hobuku.hobu.Detail_jualEdit
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:83:7-104
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:83:64-101
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:83:17-63
+activity#com.hobuku.hobu.Notif
+ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:85:7-93
+	android:label
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:85:54-90
+	android:name
+		ADDED from E:\finedev\HOBU\app\src\main\AndroidManifest.xml:85:17-53
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\AndroidManifest.xml:27:13-51

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    
+      <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="INFO: Jika status berubah selesai harap chek mutasi bank anda, jika uang belom masuk maka hubungi admin (087881684244) dengan mencantumkan kode jual." 
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      
+      
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ 
+</LinearLayout>

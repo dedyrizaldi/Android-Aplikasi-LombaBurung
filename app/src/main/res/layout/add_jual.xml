@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"  >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+		
+		
+<TextView
+android:id="@+id/txtMarquee"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="14sp"
+android:typeface="sans"
+android:textColor="#ffffff"
+android:background="#000000"
+android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever">
+</TextView>
+
+
+        <ImageView
+            android:id="@+id/myGambar"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/burung" />
+        
+        <!--  Name Label -->
+
+        
+        <!--  Name Label -->
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Burung"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/txtkode_burung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+            
+        <!--  Email TextField -->
+
+        <EditText
+            android:id="@+id/txtharga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.82"
+            android:textColor="#000000" />
+      
+          <TextView
+              android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtdeskripsi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Alasan dijual" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+         <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtketerangan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+    
+        
+          <TextView
+                android:id="@+id/txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+          
+          
+        <!--  Link to Login Screen -->
+         <Button android:id="@+id/btnuploadjual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Upload foto1"
+        android:layout_weight="1"/>
+         
+		 
+           <Button android:id="@+id/btnupload2jual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Upload foto2"
+        android:layout_weight="1"/>
+           
+             <Button android:id="@+id/btnupload3jual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Upload foto3"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnupload4jual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Upload foto4"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnupload5jual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Upload foto5"
+            android:layout_weight="1"
+            />
+
+
+
+
+
+        <TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:stretchColumns="1"
+  >
+
+<TableRow android:id="@+id/TableRowmarquee" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnhapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+              android:text="Batal" />
+         <Button android:id="@+id/btnproses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Tambah"
+        android:layout_weight="1"/>
+</TableRow> 
+
+</TableLayout>
+	
+			  
+    </LinearLayout>
+ 
+</ScrollView>

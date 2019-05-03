@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="@drawable/bg"  >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+		
+		
+<TextView
+android:id="@+id/txtMarquee"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="14sp"
+android:typeface="sans"
+android:textColor="#ffffff"
+android:background="#000000"
+android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever">
+</TextView>
+
+
+        <ImageView
+            android:id="@+id/myGambar"
+            android:layout_width="220px"
+            android:layout_height="220px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/admin" />
+        
+        <!--  Name Label -->
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Lomba"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtkode_lomba"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+         
+       
+        
+        <!--  Name Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Burung" 
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtkode_burung"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        
+        <!--  Name Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lomba" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtnama_lomba"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        <!--  Email Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelas Lomba" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtkelas_lomba"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+
+        
+         <!--  Email Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Tiket" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtharga_tiket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sponsor" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+         <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtsponsor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtpersyaratan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtdeskripsi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+ 
+         
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lomba" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txttanggal_lomba"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Lomba" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtjam_lomba"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Lomba" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtstatus_lomba"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Gantangan" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtjumlah_gantangan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Anggota" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtkode_anggota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+          <TextView
+              android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Point Nilai" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtpoint_nilai"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+          <TextView
+              android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtketerangan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         
+        <!--  Link to Login Screen -->
+		 <Button android:id="@+id/btnproses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Order Tiket"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnhapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+              android:text="Kembali" />
+			  
+			  
+    </LinearLayout>
+ 
+</ScrollView>

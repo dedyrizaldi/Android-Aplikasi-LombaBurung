@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:background="@drawable/bg"  >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+		
+		
+<TextView
+android:id="@+id/txtMarquee"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="14sp"
+android:typeface="sans"
+android:textColor="#ffffff"
+android:background="#000000"
+android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever">
+</TextView>
+
+
+        <ImageView
+            android:id="@+id/myGambar"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/admin" />
+        
+        <!--  Name Label -->
+
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Anggota"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!--  Name TextField -->
+        <EditText
+
+            android:id="@+id/txtnama_anggota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+         
+       
+        
+        <!--  Name Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin" 
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!--  Name TextField -->
+      
+         
+<RadioGroup    android:id="@+id/radio"    android:layout_width="fill_parent"    android:layout_height="wrap_content"    android:orientation="vertical">
+    <RadioButton android:id="@+id/radPa"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:text="Laki-laki"        android:checked="true" />
+    <RadioButton android:id="@+id/radPi"        android:layout_width="wrap_content"        android:layout_height="wrap_content"        android:text="Perempuan" />
+    
+</RadioGroup>
+         
+        
+        <!--  Name Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <!--  Name TextField -->
+        <EditText
+            android:id="@+id/txtalamat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+         
+        <!--  Email Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Telpon" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txttelpon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+
+        
+         <!--  Email Label -->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+      
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Username" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+         <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtusername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+         <TextView
+             android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+        <EditText
+            android:id="@+id/txtpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#000000" />
+        
+ 
+        
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama BAnk" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+
+        <EditText
+            android:id="@+id/txtnama_bank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.56"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="No Rekening" 
+            android:textColor="#000000" 
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+         
+          <!--  Email TextField -->
+
+        <EditText
+            android:id="@+id/txtno_rekening"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.56"
+            android:textColor="#000000" />
+         
+         
+        <!--  Link to Login Screen -->
+		 <Button android:id="@+id/btnproses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+        android:text="Registrasi"
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnhapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#000000"
+            android:textStyle="bold" 
+              android:text="Batal" />
+			  
+			  
+    </LinearLayout>
+ 
+</ScrollView>

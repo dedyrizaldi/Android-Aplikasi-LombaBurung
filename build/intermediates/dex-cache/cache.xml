@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\e1d61ad6b704d6e83c583ce5309e3139\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8602ab07133e6ee182726fa27588420dba9d6d55">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\7dd1e7edacd04afe9dbdeccd63959ad1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cbb26a4f659b17abc1f75ff735a607aa299697ac">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\bf87314ed8e0d00801017f2509b3e94b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b102f892442929c3457de1ef6a94f5dda3dd8864">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\60c468a2ffe52aa1f944a54bd6ccc214\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7b86f1beb2b3625c6a1a5da6b5fc5294b64aea9">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.0\2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1\rxjava-2.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\9e6fe800d0f77ecf783e047a261ee70a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\6ba2405dbcbf542527f53feaabe04964\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6b1555196d65ffa1174f6f49efb2f278905f537a">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\91c13ff197ad83074e5bcd806ada6829\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a94a06ec585c9423a3c03bde1f7bf9268f83d66">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.0\db09a97f4f0db8892c1a0111a4b966f97920d082\support-annotations-26.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="14"
+        optimize="true"
+        revision="26.0.2"
+        sha1="db09a97f4f0db8892c1a0111a4b966f97920d082">
+        <dex dex="E:\finedev\HOBU\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+
+</items>
